@@ -8,18 +8,31 @@
 
     <style>
         /*To all h2 elements*/
-        xxx {
+        h2 {
             color : red;
             text-align: center;
         }
 
         /*To all with class="highlights"*/
-        xxx {
+        .highlights {
             font-size: 20px;
             font-weight: bold;
             font-style: italic;
             background-color: green;
-            opacity: 6;
+            opacity: .6;
+        }
+
+        /*To all with id="mainPoint"*/
+        #mainPoint {
+            font-size: 26px;
+            font-weight: bold;
+            background-color: red;
+            opacity: .8;
+        }
+
+        p,h1{
+            color: firebrick;
+            text-align: center;
         }
 
     </style>
@@ -28,9 +41,9 @@
 
 <h1>Simple Selector</h1>
 <h2>Subheading1</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veritatis modi facilis tenetur repellat! Provident quaerat consectetur iste molestiae alias consequuntur blanditiis, quisquam aliquid culpa modi quas non magni voluptatibus. 
+<p class="highlights">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo veritatis modi facilis tenetur repellat! Provident quaerat consectetur iste molestiae alias consequuntur blanditiis, quisquam aliquid culpa modi quas non magni voluptatibus. 
 </p>
-<p>
+<p class="highlights">
     Paragraph with attribute class="highlights"
 </p>
 
